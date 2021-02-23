@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="bottom|center"
+        android:text="닭가슴살 샐러드 레시피"
+        android:textColor="#BD3966"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="#BD4BD1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        android:layout_marginTop="30dp"
+        android:text="재료 : 닭가슴살, 우유, 양상추, 새싹채소, 상추\n\n드레싱 : 오리엔탈, 칠리등(취향껏)\n\n
+1. 닭가슴살은 우유에 20분 정도 담가 둡니다.\n\n2. 각종 채소들을 깨끗하게 씻은 후 먹기 좋은 크기로 잘라줍니다.\n\n3. 닭가슴살을 물에 넣고 삶아줍니다.\n\n4. 닭가슴살과 채소들을 접시에
+담아주고 드레싱을 골고루 뿌려줍니다."
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="#EFE05F"
+            android:text="확인" />
+    </LinearLayout>
+</LinearLayout>

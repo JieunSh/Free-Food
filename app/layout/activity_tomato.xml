@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="bottom|center"
+        android:text="토마토 달걀볶음 레시피"
+        android:textColor="#BD3966"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="#BD4BD1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:text="재료 : 토마토, 달걀, 양파, 마늘, 소금\n\n
+1. 달걀 2개를 풀고 소금 간을 해줍니다.\n\n2. 스크럼블 에그를 만들어 줍니다.\n\n3. 토마토, 마늘을 넣고 달걀과 함께 볶아줍니다.\n\n" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="#EFE05F"
+            android:text="확인" />
+    </LinearLayout>
+</LinearLayout>

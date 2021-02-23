@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/select_kinds"
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="선택하신 상황에 따라 음식을 추천해드려요"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_centerInParent="true"
+            android:background="#EAAFC3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop = "30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/st_1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="#EDB09D"
+                android:text="다이어트"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/st_2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="#EDB09D"
+                android:text="간식"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/st_3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="#EDB09D"
+                android:text="해장"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/st_4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="#EDB09D"
+                android:text="스피드"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
