@@ -13,26 +13,6 @@
 ## 실행 동영상
 [유튜브 영상](https://www.youtube.com/watch?v=t7PjBRBnIOU)
 
-
-## 시스템 동작
-### 1. 메인 화면
- <img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108962960-d5555280-76bc-11eb-9009-91d330cb83a3.jpg"><br/>
-### 2. 항목 선택 페이지
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964379-bf489180-76be-11eb-892c-7ebda328c4c8.jpg"><br/>
-### 2-1. 종류에 따라 선택
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108963259-39781680-76bd-11eb-81a3-5f4d5c6f942f.jpg"><br/>
-#### 2-1-1. 음식 추천 기본 페이지
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964483-dd15f680-76be-11eb-9f21-1d44a4a9a475.jpg"><br/>
-#### 2-1-2. 랜덤 음식 추천 페이지
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964595-00d93c80-76bf-11eb-974e-f8481bb157c2.jpg"><br/>
-### 2-2. 상황에 따라 선택
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964677-20706500-76bf-11eb-993a-2d0aa73371e0.jpg"><br/>
-#### 2-2-1.'다이어트' 페이지는 음식 추천과 레시피 제공
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964727-32ea9e80-76bf-11eb-8397-969ebcc4274d.jpg">
-<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964793-4bf34f80-76bf-11eb-897d-423e5934e7ea.jpg"><br/>
-* 나머지 항목 기능은 2-1-2과 동일
-
-
 ## 주요 기능
 1. intent를 이용한 페이지 전환
 ```
@@ -72,6 +52,27 @@ switch(count){
                         break;
                 }
 ```                
+
+## 시스템 동작
+### 1. 메인 화면
+ <img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108962960-d5555280-76bc-11eb-9009-91d330cb83a3.jpg"><br/>
+### 2. 항목 선택 페이지
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964379-bf489180-76be-11eb-892c-7ebda328c4c8.jpg"><br/>
+### 2-1. 종류에 따라 선택
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108963259-39781680-76bd-11eb-81a3-5f4d5c6f942f.jpg"><br/>
+#### 2-1-1. 음식 추천 기본 페이지
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964483-dd15f680-76be-11eb-9f21-1d44a4a9a475.jpg"><br/>
+#### 2-1-2. 랜덤 음식 추천 페이지
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964595-00d93c80-76bf-11eb-974e-f8481bb157c2.jpg"><br/>
+### 2-2. 상황에 따라 선택
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964677-20706500-76bf-11eb-993a-2d0aa73371e0.jpg"><br/>
+#### 2-2-1.'다이어트' 페이지는 음식 추천과 레시피 제공
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964727-32ea9e80-76bf-11eb-8397-969ebcc4274d.jpg">
+<img width="320" height = "500" alt="PK 메인화면" src="https://user-images.githubusercontent.com/78644129/108964793-4bf34f80-76bf-11eb-897d-423e5934e7ea.jpg"><br/>
+* 나머지 항목 기능은 2-1-2과 동일
+
+
+
 
 ## 개선점
 * 음식 종류가 더 다양했으면 선택의 폭이 넓어져 좋았을 것..!
