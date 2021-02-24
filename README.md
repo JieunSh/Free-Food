@@ -29,7 +29,7 @@
 
 ## 주요 기능
 1. intent를 이용한 페이지 전환
-```android 
+```Android Studio
 Intent intent = new Intent(MainActivity.this, Menus.class);
 startActivity(intent);
 ```
