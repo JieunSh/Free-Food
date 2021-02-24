@@ -34,7 +34,7 @@ Intent intent = new Intent(MainActivity.this, Menus.class);
 startActivity(intent);
 ```
 2. ImageView에 음식 이미지 출력
-```android
+```android studio
 <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent 
